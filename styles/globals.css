@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App base styles */
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --ring: 0 0% 0%;
+}
+* {
+  @apply border-zinc-200 dark:border-zinc-800;
+}
+body {
+  @apply bg-white text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100;
+}
+/* Focus ring */
+:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.5);
+  border-radius: 8px;
+}
+/* Scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: #9CA3AF; border-radius: 9999px; }
+.dark ::-webkit-scrollbar-thumb { background: #4B5563; }

@@ -1,0 +1,19 @@
+{
+  "templates": [
+    {
+      "id": "brainstorm",
+      "name": "Brainstorm Ideas",
+      "content": "Brainstorm 10 creative product ideas for a {topic}. Keep them concise and feasible."
+    },
+    {
+      "id": "summarize",
+      "name": "Summarize Text",
+      "content": "Summarize the following text in 5 bullet points:\\n\\n{input}"
+    },
+    {
+      "id": "rewrite",
+      "name": "Rewrite for Clarity",
+      "content": "Rewrite the text to be clearer, more concise, and in plain English:\\n\\n{input}"
+    }
+  ]
+}
