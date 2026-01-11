@@ -1,6 +1,6 @@
 # AI UI/UX Prototype — Frontend-Only (Next.js + Tailwind + Storybook)
 A polished **frontend-only** prototype that blends the best patterns from leading AI UIs. Built with **Next.js + TypeScript (strict)**, **Tailwind**, **Framer Motion**, and a small component library. Includes **mock APIs**, **Storybook**, accessibility polish, and a clean, responsive layout. Ready to deploy on **Vercel/Netlify**.
----
+--
 ##  Step 1 — Research (Summary)
 | Platform | Summary | Standout Features |
 | --- | --- | --- |
@@ -17,7 +17,7 @@ A polished **frontend-only** prototype that blends the best patterns from leadin
 - **Responsive Layout** (mobile → desktop)
 - **Accessibility**: keyboard focus, ARIA labels, high-contrast focus ring
 - **Micro‑animations** (Framer Motion)
----
+--
 ## Step 2 — Design (Figma + Tailwind Mapping)
 **Mockup**: Create/attach your Figma/XD link here → `https://figma.com/file/… (add your link)`
 **Tailwind Tokens**
@@ -32,7 +32,7 @@ A polished **frontend-only** prototype that blends the best patterns from leadin
 - Buttons: variants (`primary`, `secondary`, `ghost`)
 - Sliders: native `<input type="range">` with labels & value readout
 - Chat bubbles: rounded containers, role‑based colors
----
+--
 ## Step 3 — Development Notes
 - **Stack**: Next.js 14 (pages router), TypeScript `strict: true`, Tailwind 3
 - **State**: `SessionContext` (model, params, messages) + `ThemeContext`
@@ -40,14 +40,14 @@ A polished **frontend-only** prototype that blends the best patterns from leadin
 - **No backend calls**: “Run” simulates a response to show the UX
 - **Persistence**: Theme via `localStorage`; templates can be saved locally
 - **A11y**: Labels, `aria-*`, `focus-visible` ring, keyboardable controls
----
+--
 ## Step 4 — Component Library & Storybook
 **Stories** included: `Button`, `Slider`, `Modal`, `ChatBubble` in `/stories` with Storybook 8.
 Run:
 ```bash
 npm run storybook
 ```
----
+--
 ## Quick Start
 ```bash
 # 1) Install deps
@@ -62,7 +62,7 @@ npm run storybook
 **Build & Deploy**
 - **Vercel**: push to GitHub, “Import Project”, build command `next build`, output handled by Next.
 - **Netlify**: set build `next build`, publish directory `.next`. (Or use Next on Netlify adapter.)
----
+--
 ## What’s Inside (Structure)
 ```
 ai-ux-prototype/
@@ -97,7 +97,7 @@ ai-ux-prototype/
 ├── next.config.js
 └── package.json
 ```
----
+--
 ## What to Submit
 1. **Live URL** of your deployed prototype (Vercel/Netlify)
 2. **GitHub repo** with the full source
@@ -107,7 +107,7 @@ ai-ux-prototype/
    - Implementation notes & limitations
    - Mock API explanation
    - Storybook instructions & screenshots (optional)
----
+--
 ##  Notes & Known Limitations
 - “Run” is **simulated** to keep this frontend‑only.
 - Models and templates are **mocked**; swap `/api/*` to your real endpoints later.
