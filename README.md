@@ -1,4 +1,4 @@
-# -AI UI/UX Prototype — Frontend-Only (Next.js + Tailwind + Storybook)-
+-AI UI/UX Prototype — Frontend-Only (Next.js + Tailwind + Storybook)-
 A polished **frontend-only** prototype that blends the best patterns from leading AI UIs. Built with **Next.js + TypeScript (strict)**, **Tailwind**, **Framer Motion**, and a small component library. Includes **mock APIs**, **Storybook**, accessibility polish, and a clean, responsive layout. Ready to deploy on **Vercel/Netlify**.
 ---
 ##  Step 1 — Research (Summary)
@@ -8,7 +8,7 @@ A polished **frontend-only** prototype that blends the best patterns from leadin
 | **Hugging Face Spaces** | Web-hosted ML demos with varied UIs and datasets. | Model picker, responsive layout, download artifacts |
 | **Anthropic Claude** | Conversational UI with clean chat bubbles and attachments. | Chat history, copy tools, lightweight theming |
 | **Microsoft Copilot Lab** | Task‑oriented prompts with templates and categories. | Template library, guide rails, quick actions |
-### Features chosen for this prototype (6–8 core)
+## Features chosen for this prototype (6–8 core)
 - **Model Selector** (sidebar)
 - **Prompt Editor** with **template load/save**
 - **Parameters Panel** (temperature, max tokens)
