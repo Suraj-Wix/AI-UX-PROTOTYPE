@@ -112,4 +112,4 @@ ai-ux-prototype/
 - “Run” is **simulated** to keep this frontend‑only.
 - Models and templates are **mocked**; swap `/api/*` to your real endpoints later.
 - Add more parameters (top‑p, frequency penalty) if desired.
-/```/
+```
